@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismo</title>
+    <style>
+      /* Global Styles */
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+        background-color: #fff;
+      }
+
+      /* Container */
+      .container {
+        max-width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      /* Logo */
+      .logo {
+        width: 100px;
+        height: auto;
+        /* margin-bottom: 10px; */
+      }
+
+      /* Brand Name */
+      .brand-name {
+        font-size: 36px;
+        font-weight: bold;
+        color: #1d4c97;
+        margin: 0px;
+      }
+
+      /* Description */
+      .description {
+        font-size: 22px;
+        color: #333;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      /* Link */
+      .cta-link {
+        color: #1d4c97;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      .cta-link:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 600px) {
+        .logo {
+          width: 100px;
+        }
+
+        .brand-name {
+          font-size: 36px;
+        }
+
+        .description {
+          font-size: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="con1">
+        <img src="ismoicon.png" alt="Ismo Logo" class="logo" />
+        <h1 class="brand-name">ismo</h1>
+      </div>
+      <div class="con2">
+        <p class="description">
+          we are building on perspectives, check <br />
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSey_dp2MitJRrB9u3Z51Eg-kNyVT7_NW5BQn-YyBPVA_YKvnA/viewform" class="cta-link">is something missing out?</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
